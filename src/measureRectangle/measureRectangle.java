@@ -22,7 +22,9 @@ public class measureRectangle {
 		double diagonal = Math.hypot(height, width);
 		
 		System.out.printf("%.2f", area);
+		System.out.println("");
 		System.out.printf("%.2f", perimeter);
+		System.out.println("");
 		System.out.printf("%.2f", diagonal);
 		
 	}
