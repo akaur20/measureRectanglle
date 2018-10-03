@@ -16,16 +16,16 @@ public class measureRectangle {
 		
 		System.out.print("Please enter the width of your rectangle:");
 		double width = in.nextDouble();
-		
+		//should put  .nextLine()
 		double area = height*width;
 		double perimeter = height + height + width + width;
 		double diagonal = Math.hypot(height, width);
 		
-		System.out.printf("%.2f", area);
+		System.out.printf("%-10s %10.2f", "Area:", area);
 		System.out.println("");
-		System.out.printf("%.2f", perimeter);
+		System.out.printf("%-10s %10.2f", "Perimeter:",perimeter);
 		System.out.println("");
-		System.out.printf("%.2f", diagonal);
+		System.out.printf("%-10s %10.2f", "Diagonal:",diagonal);
 		
 	}
 
